@@ -1,0 +1,2 @@
+    // delete[] first;
+    // delete[] second;
