@@ -91,7 +91,7 @@ bool detectLoop(Node* head){
             cout<<"cycle is present "<<temp->data;
             return true;
         }
-        return true;
+        visited[temp] =true;
         temp=temp->Next;
 
     }
