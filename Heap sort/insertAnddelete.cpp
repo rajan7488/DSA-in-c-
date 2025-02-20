@@ -74,14 +74,14 @@ class Heap{
             heapify(arr,n,largest);
         }
     }
-    void heapSort(int arr[],int n){
-        int t=n;
-        while(t>1){
-            swap(arr[1],arr[t]);
-            t--;
-            heapify(arr,t,1);
-        }
-    }
+    // void heapSort(int arr[],int n){
+    //     int t=n;
+    //     while(t>1){
+    //         swap(arr[1],arr[t]);
+    //         t--;
+    //         heapify(arr,t,1);
+    //     }
+    // }
 int main(){
     Heap h;
     h.insert(60);
@@ -104,7 +104,7 @@ int main(){
     }
     cout<<endl;
     cout<<"Printing Sorted Array -> "<<endl;
-    heapSort(arr,n);
+    // heapSort(arr,n);
     for(int i=1;i<=n;i++){
         cout<<arr[i]<<" ";
     }
