@@ -37,6 +37,6 @@ int maximumSumSubArray(vector<int>&arr,int k){
 
 int main(){
     vector<int>arr={1,2,3,4,5,6,1};
-    int k=3;
+    int k=4;
     cout<<"Maximum sum SubArray -> "<<maximumSumSubArray(arr,k);
 }

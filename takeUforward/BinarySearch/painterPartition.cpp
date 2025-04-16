@@ -35,7 +35,7 @@ int painterPartiton(vector<int>&arr,int k){
 
 
 int main(){
-    vector<int>arr={10,20,30,40};
-    int k=2;
+    vector<int>arr={10,20,30};
+    int k=1;
     cout<<"partiton of painter -> "<<painterPartiton(arr,k);
 }
