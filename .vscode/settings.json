@@ -2,7 +2,8 @@
     "files.associations": {
         "*.c": "c",
         "iostream": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "vector": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

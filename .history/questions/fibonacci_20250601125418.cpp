@@ -18,7 +18,7 @@ int fib(int n){
 
 
 int main(){
-    int n=5;
+    int n=3;
     // cin>>n;
     // int a=0;
     // int b=1;
